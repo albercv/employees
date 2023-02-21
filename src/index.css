@@ -15,10 +15,13 @@ code {
 
 .mainContent {
   min-height: 400px;
+  color: antiquewhite;
 }
 .mainContent  input[type="text"]{
   padding: 20px;
   width: 200px;
+  border-radius: 15px;
+  background-color: #eee7e7;
 }
 
 .employeeRender {
@@ -60,4 +63,14 @@ code {
 
 .employeeView img{
   max-height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.employeeView {
+  flex-basis: 100%;
+}
+  .employeeView img{
+    max-height: 80px;
+  }
 }
