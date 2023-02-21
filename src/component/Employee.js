@@ -24,7 +24,7 @@ export const Employee = React.memo(
     }, [page])
 
     return (
-        <div >
+        <div className='employeeRender'>
             <div>
                 <p>Mostrando página: {page}</p>
             </div>
