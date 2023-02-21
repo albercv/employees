@@ -1,5 +1,5 @@
 {
-  "name": "e2d_hooks",
+  "name": "e2d_usememo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

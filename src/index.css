@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mainContent {
+  min-height: 400px;
+}
+.mainContent  input[type="text"]{
+  padding: 20px;
+  width: 200px;
+}
+
+.employeeContainer {
+  display: flex;
+  width: 85%;
+}
+
+.employeeView {
+  display: block;
+  width: 50%;
+  margin: 10px;
+  color: rgb(50, 52, 52);
+  box-shadow: 0px 0px 5px #ddd;
+  background-color: rgb(197, 212, 213);
+  border-radius: 10px;  
+  line-height: 50px;
+  text-decoration: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+.employeeView p{
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  min-height: 30px; 
+  max-height: 80px;
+  word-wrap: break-word;
+}
+
+.employeeView img{
+  max-height: 100px;
+}
