@@ -9,7 +9,6 @@ export const Task = () => {
         if (!tasks.includes(e.target.task.value))
             setTasks(task => [...task, e.target.task.value])
 
-
         console.log("Adding task " + e.target.task.value)
     }
 
@@ -20,7 +19,6 @@ export const Task = () => {
         )
         setTasks(filteredTasks)
     }
-
 
     return (
         <div className='taskContainer'>
