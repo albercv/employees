@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import { Employee } from './Employee'
 
 export const Management = () => {
@@ -14,6 +14,10 @@ export const Management = () => {
     console.log(`Change ocurred in: ${managerName} or ${currentPage}`)
   }, [managerName, currentPage]);
 
+  // const updateTaskList = useCallback(() =>{
+    
+  // }, [page]);
+
   return (
     <div className='mainContent'>
       <h1>Gestor: {managerName}</h1>
@@ -26,6 +30,7 @@ export const Management = () => {
         Listado empleados gestinados por {managerName}:
         <Employee page={currentPage} />
       </h2>
+      <hr/>
     </div>
   )
 };
